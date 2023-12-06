@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
             //console.log(results);
             const js = (JSON.stringify(results));
             console.log(js);
+            res.setHeader("Access-Control-Allow-Origin", '*');
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end(js);
 
