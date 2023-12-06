@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <i class="fas fa-bars" id="menu-icon" ></i>
+                <nav>
+                    <ul class="NAVIGATION">
+                        <li><a class="OPEN" href="#home">Home</a></li>
+                        <li><a href="#left">Career Objective</a></li>
+                        <li><a href="#NEXT_2">Work Experience</a></li>
+                        <li><a href="#NEXT_3">Education</a></li>
+                        <li><a href="#NEXT_4">Projects</a></li>
+                        <li><a href="#skillsneed">Skills</a></li>
+                        <li><a href="#Hobbies">Hobbies</a></li>
+                        <li><a href="#contact">contact</a></li>
+                      </ul>
+                </nav>
+            </nav>
+            <main id="contact">
+                <table style="width:100% ;height:100%">
+                <tr style="text-align: left;">
+                </tr>
+                <tr>
+                  <td><h1>CONTACT<br>
+                    SUDHEER KOTHAPALLI<br>
+                    FULLSTACK DEVELOPER</h1><br>
+                    New Haven<br>+1 4752873773
+                    <br>Kothapallisudheer1020@gmail.com<br>
+                    Kothapalli sudheer</td>
+                </tr>
+              </table>
+             </main>
+            <aside id="left">
+                <img src="my.png" alt="image" style="width:150px;height:150px;">
+                <h1>CAREER OBJECTIVES</h1><br>
+                 <p>Professional with one year of experience in software development who is committed and results-driven and looking to use their abilities to contribute successfully to a creative and inventive team. My objective is to continue developing as a full-stack developer while actively taking part in initiatives that foster organizational success and present chances for growth on both a personal and professional level.</p>
+                 <hr>
+                 <h1 id="skillsneed"> SKILLS</h1><br>
+                <li><b>WebTechnologies-</b>
+                    Html,Css,
+                 Javascript,Vue.Js,Node.Js,
+                 python,Express.Js,Mongo DB</li>
+                <li><b>ProgramingLanguages-</b>
+                C,C++,Java,Python.</li>
+                <li><b>Methodology -</b>
+                     Waterfall model and Agile process</li>
+            </ul>
+            <hr>
+            <h1 id="Hobbies">Hobbies</h1>
+            <p>I Enjoy Reading Comic Books</p>
+            <p>I Enjoy Cooking Variety of Dishes.</p>
+            <p>Playing Cricket</p>
+            </aside>
+            <section id="NEXT_2">
+                <table style="width:100% ;height:100%">
+                    <tr style="text-align: left;">
+                        <th>
+                            <h1>WORK EXPERIENCE<br>
+                                 FULL STACK DEVELOPER[COGNIZANT][august 2021-august 2022]</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Professional with one year of experience in software development who is committed
+                                and results-driven</p><p> and looking to use these abilities 
+                                    to contribute successfully to a creative and inventive team.</p>
+                                <p> objective is to continue developing as a full-stack developer 
+                                    while actively taking part in initiatives that foster organizational</p>
+                                    <p>success and present chances for growth on both a personal and professional level.
+                            </p>
+                        </td>
+                    </tr>
+                </table>            
+            </section>
+            <section id="NEXT_3">
+                <table style="width:100%">
+					<tr style="text-align: left;">
+					  <th><h1>Education</h1></th>
+					</tr>
+					<tr>
+					  <td>University Of New Haven<br>
+						[2022 - 2024]<br>
+						</td>
+					  <td>Master's in Computer and Information Sciences<br></td>
+					</tr><br>
+					<tr>
+					  <td>Anurag University[CVSR]<br>
+						</td>
+						<td>Bachelor's in Computer Science<br></td>					  
+					</tr>					
+				  </table>
+            </section>
+            <section id="NEXT_4">
+                <h1>PROJECTS</h1><br>
+					  <p>Developed an E- Commerce website for buying and selling of items</p>
+<p>With MySQL for database administration, React.js is used for the front end and Node.js (Express.js) is used for the back end.</p><br>
+<p>Detecting the number plate of the vehicle using CNN (Deep Learning) with python.</p>
+<p>By using CNN Algorithm in deep learning with python we are detecting
+ number plate of a vehicle. First, we are taking number plate of a vehicle as input and we are applying the CNN technique and then training the model.</p>
+            </section>
+            
+        </div>
+        <script>
+            document.getElementById("menu-icon").addEventListener("click", function() {
+                var menu = document.querySelector(".NAVIGATION"); 
+            
+                if (menu.style.display === "block" || menu.style.display === "") {
+                    menu.style.display = "none"; 
+                } else {
+                    menu.style.display = "block"; 
+                }
+            });
+            </script>
+            
+    </body>
+</html>

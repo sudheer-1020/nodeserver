@@ -1,0 +1,76 @@
+{
+    "movieshub": [
+        {
+            "id": 1,
+            "movie_name": "Avatar1",
+            "movie_language": "English",
+            "movie_rating": 8,
+            "movie_genre": "Action",
+            "movie_runtime": "2h 42m",
+            "movie_year": 2009,
+            "movie_director": "James Cameron",
+            "movie_actors": "Sam Worthington, Zoe Saldana,Sigourney,Michelle Rodriguez",
+            "movie_is_released": "True"
+        },
+        {
+            "id": 2,
+            "movie_name": "Avatar2",
+            "movie_language": "English",
+            "movie_rating": 8,
+            "movie_genre": "Action",
+            "movie_runtime": "3h 12m",
+            "movie_year": 2022,
+            "movie_director": "James Cameron",
+            "movie_actors": "Sam Worthington, Zoe Saldana,Sigourney,Michelle Rodriguez,Stephen Lang",
+            "movie_is_released": "True"
+        },
+        {
+            "id": 3,
+            "movie_name": "RRR",
+            "movie_language": "Telugu",
+            "movie_rating": 8,
+            "movie_genre": "Action,Drama",
+            "movie_runtime": "3h 7m",
+            "movie_year": 2022,
+            "movie_director": "S.S. Rajamouli",
+            "movie_actors": "N.T.Rama Rao Jr, Ram Charan,Ajay Devgn,Alia Bhat,Olivia Morriss,Shriya Saran",
+            "movie_is_released": "True"
+        },
+        {
+            "id": 4,
+            "movie_name": "Salaar",
+            "movie_language": "Telugu",
+            "movie_rating": 9,
+            "movie_genre": "Action,Thiller",
+            "movie_runtime": "2h 50m",
+            "movie_year": 2023,
+            "movie_director": "Prashanth Neel",
+            "movie_actors": "Prabhas, Prithviraj Sukumaran,Shruthi  Hassan,Jagapathi Babu,Eshwari Rao",
+            "movie_is_released": "False"
+        },
+        {
+            "id": 5,
+            "movie_name": "Aquaman and the Lost Kingdom",
+            "movie_language": "English",
+            "movie_rating": 8,
+            "movie_genre": "Action,Thriller",
+            "movie_runtime": "1h 55m",
+            "movie_year": 2023,
+            "movie_director": "James Wan",
+            "movie_actors": "Jason Momoa,Ambar Heard,Patrick Wilson,Nicole Kidman,Michael Keaton",
+            "movie_is_released": "False"
+        },
+        {
+            "id": 6,
+            "movie_name": "Jumanji: Welcome to the jungle",
+            "movie_language": "English",
+            "movie_rating": 7,
+            "movie_genre": "Action,Adventure,Comedy,Fantasy",
+            "movie_runtime": "1h 59m",
+            "movie_year": 2017,
+            "movie_director": "Jake Kasdan",
+            "movie_actors": "Dwayne Johnson,Karen Gillan,Kevin Hart,Jack Black,Bobby Cannavale",
+            "movie_is_released": "True"
+        }
+    ]
+}
